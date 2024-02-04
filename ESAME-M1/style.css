@@ -1,0 +1,387 @@
+/* CSS RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/* HEADER */
+
+header{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.navbar{
+    width: 100%;
+    display: flex;
+    background-color: white;
+    box-shadow: 0 1px 10px grey ;
+}
+
+.logo-container {
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.logo-container img {
+    width: 250px;
+    margin-left: 60px;
+}
+
+.right-nav{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.icon-container {
+    display: flex;
+}
+
+.icon-container i {
+    font-size: 25px;
+    color: grey;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.resume-membership button{
+    width: 200px;
+    height: 50px;
+    background-color: white;
+    border: 1px solid grey;
+    border-radius: 20px;
+    font-size: 14px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.resume-membership button:hover{
+    background-color: rgb(211, 210, 210);
+}
+
+.profile-img{
+    margin: 0 20px;
+    cursor: pointer;
+}
+
+.profile-img img{
+    width: 50px;
+    border-radius: 50%;
+}
+
+/* LEFT-SIDE */
+
+main{
+    display: flex;
+}
+
+.main{
+    width: 73%;
+    height: 100%;
+    margin-left: 100px;
+    overflow: hidden;
+    border-right: 1px solid rgb(212, 212, 212);
+}
+
+.change-section {
+    display: flex;
+    /* margin-top: 20px; */
+    border-bottom: 1px solid rgb(212, 212, 212);
+}
+
+.change-section h3{
+    margin-top: 50px;
+    padding: 20px;
+}
+
+.annuncio-container{
+    display: flex;
+    align-items: center;
+    padding: 30px 0;
+    margin-left: 20px;
+}
+
+.account-name {
+    display: flex;
+    align-items: center;
+}
+
+.title {
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.annuncio-main{
+    margin-bottom: 20px;
+    width: 80%;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    
+}
+
+.account-name img {
+    padding: 10px;
+}
+
+.annuncio-info {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.annuncio-footer {
+    display: flex;
+    align-items: center;
+    font-size: 12;
+    color: grey;
+}
+
+.btn{
+    background-color: rgb(233, 233, 233) ;
+    border-radius: 20px;
+    padding: 5px 10px;
+}
+
+.final-icons{
+    padding-left: 35%;
+    font-size: 22px;
+}
+
+.final-icons i {
+    margin-right: 25px;
+    cursor: pointer;
+}
+
+.annuncio-img img{
+    padding-right: 20px;
+    height: 150px;
+    width: 270px;
+    cursor: pointer;
+}
+
+/* RIGHT SIDEBAR */
+
+.right-sidebar{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+
+.discover{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.discover-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.discover-icon i{
+    font-size: 60px;
+    margin: 0 10px;
+    margin-top: 50px;
+}
+
+#plus {
+    font-size: 30px;
+}
+
+#twitter {
+    color: rgb(74, 144, 235);
+}
+
+.discover-description {
+    width: 300px;
+    font-weight: 100;
+    font-size: 22px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.discover-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 0;
+    
+}
+
+.discover-button:hover button {
+    background-color: rgb(211, 210, 210);
+}
+
+.discover-button button{
+    width: 250px;
+    height: 50px;
+    background-color: white;
+    border: 1px solid grey;
+    border-radius: 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.fa-twitter{
+    padding-right: 20px;
+}
+
+.discover-link{
+    display: flex;
+    justify-content: center;
+
+}
+
+.discover-link a{
+    color: grey;
+}
+
+/* RECCOMENDED SECTION */
+
+.recommended{
+    margin-top: 70px;
+    margin-left: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+
+.recommended-title {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.reccomended-tag{
+    display: flex;
+    justify-content: left;
+    margin-top: 25px;
+    width: 50%;
+    flex-wrap: wrap;
+    /*height: 600px; */
+}
+
+.reccomended-tag span{
+    background-color: rgb(233, 233, 233);
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px;
+    margin-left: 0;
+    cursor: pointer;
+}
+
+/* FOLLOW SECTION */
+
+.who-follow{
+    font-size: 22px;
+    margin-top: 70px;
+    margin-left: 70px;
+    
+}
+
+/* .who-to-follow{
+    top: 0;
+    position: -webkit-sticky;
+    position: sticky;
+} */
+
+.profile{
+    display: flex;
+    align-items: center;
+    margin-left: 70px;
+    margin-top: 40px;
+}
+
+.photo-profile img {
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.info-profile {
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.info-profile h2{
+    font-size: 18px;
+}
+
+.info-profile span {
+    width: 200px;
+    color: grey;
+    font-size: 14;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.follow-button button{
+    width: 100px;
+    height: 40px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 20px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+/* FOOTER SECTION */
+.recently-saved{
+    position: sticky;
+    top: 10px;
+    z-index: 9;
+}
+
+.recently-title{
+    font-size: 22px;
+    margin-top: 70px;
+    margin-left: 70px;
+}
+
+.annuncio-container2{
+    display: flex;
+    align-items: center;
+    padding: 30px 0;
+    margin-left: 70px;
+}
+
+.account-name2{
+    display: flex;
+    align-items: center;
+}
+
+.account-name2 img{
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.see-all3{
+    margin-left: 70px;
+    color: green;
+    cursor: pointer;
+}
+
+.footer{
+    margin-top: 370px;
+    margin-left: 70px;
+    display: flex;
+    justify-content: left;
+}
+
+.info-footer span{
+    color: rgb(154, 154, 154);
+    margin-right: 10px;
+    padding: 10px;
+    cursor: pointer;
+}
